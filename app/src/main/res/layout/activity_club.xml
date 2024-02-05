@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Club.ClubActivity"
+    >
+
+    <TextView
+        android:id="@+id/Club_Owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome Club Owner ..."
+        android:textColor="#080808"
+        android:textSize="34sp" />
+
+
+    <Button
+        android:id="@+id/btn_EC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Club_Owner"
+        android:layout_marginTop="14dp"
+        android:onClick="Event"
+        android:text="Event Creation"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_RP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Routine Planning"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/btn_EC"
+        android:onClick="RoutePlanningManagement"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_RM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_RP"
+        android:layout_marginTop="15dp"
+        android:onClick="ProfileManagement"
+        android:text="Profile"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/RegistrationManagement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registration Management"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/btn_RM"
+        android:layout_marginTop="15dp"
+        android:onClick="RegistrationManagement"/>
+
+
+
+</RelativeLayout>

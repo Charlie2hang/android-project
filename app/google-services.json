@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "760222515319",
+    "firebase_url": "https://charlie-62009-default-rtdb.firebaseio.com",
+    "project_id": "charlie-62009",
+    "storage_bucket": "charlie-62009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760222515319:android:1b09b291cf26b85d9e0672",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-p4AdB2W-O7erv1Ny8MeCjvLO5DTu0-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

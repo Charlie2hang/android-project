@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome ADMIN..."
+            android:textSize="34sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/account_management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="AccountManagement"
+            android:text="Account Management" />
+
+        <Button
+            android:id="@+id/eventType_management"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EventType management"
+            android:onClick="EventTypeManagement"/>
+
+        <Button
+            android:id="@+id/ModerationBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Content Moderation"
+            android:onClick="ModerationOnClick"/>
+
+    </LinearLayout>
+</LinearLayout>

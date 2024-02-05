@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Club.Profile.registrationManagement"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:id="@+id/Registration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Profile Management"
+        android:textSize="35dp" />
+
+    <Button
+        android:id="@+id/btn_Profile_Create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below = "@+id/Registration"
+        android:text="Profile Creation"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:onClick="ProfileCreate"/>
+
+    <Button
+        android:id="@+id/btn_Profile_List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_Profile_Create"
+        android:layout_marginTop="15dp"
+        android:text="My Events List"
+        android:textSize="20dp"
+        android:onClick="EventListView"/>
+
+
+</LinearLayout>

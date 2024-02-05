@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Club.Profile.ProfileCreation"
+    android:padding="15dp">
+
+    <TextView
+        android:id="@+id/Profile_Creation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Profile"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <EditText
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Social media link:"
+        android:inputType="textUri"
+        android:layout_below="@+id/Profile_Creation"
+        android:layout_marginTop="35dp"/>
+
+    <EditText
+        android:id="@+id/Contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name:"
+        android:layout_below="@+id/link"
+        android:layout_marginTop="15dp"/>
+
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number:"
+        android:inputType="number"
+        android:layout_below="@+id/Contact_name"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneNumber"
+        android:layout_marginTop="25dp"
+        android:onClick="ProfileCreation1"
+        android:text="Create" />
+
+</RelativeLayout>

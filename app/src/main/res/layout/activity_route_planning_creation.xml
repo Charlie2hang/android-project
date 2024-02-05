@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Club.RoutePlanning.RoutePlanningCreation">
+
+    <TextView
+        android:id="@+id/RoutePlanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Route Planning"
+        android:textSize="34sp"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/RoutePlanning_distance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@+id/RoutePlanning"
+        android:layout_marginTop="25dp"
+        android:hint="Distance:"/>
+
+    <EditText
+        android:id="@+id/RoutePlanning_elevation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RoutePlanning_distance"
+        android:inputType="number"
+        android:layout_marginTop="15dp"
+        android:hint="Elevation:"/>
+
+    <EditText
+        android:id="@+id/RoutePlanning_landmarks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/RoutePlanning_elevation"
+        android:hint="Landmarks:"/>
+
+    <EditText
+        android:id="@+id/RoutePlanning_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/RoutePlanning_landmarks"
+        android:hint="Location:"/>
+
+    <Button
+        android:id="@+id/Btn_RoutePlanning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RoutePlanning_location"
+        android:layout_marginTop="30dp"
+        android:onClick="RoutePlanningCreate"
+        android:text="create"/>
+
+
+</RelativeLayout>

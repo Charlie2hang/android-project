@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".Participant.Feedback.Feedback"
+            android:exported="false" />
+        <activity
+            android:name=".Participant.Feedback.History"
+            android:exported="false" />
+        <activity
+            android:name=".Club.RegistrationManagement.RegistrationDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Club.RegistrationManagement.RegistrationManagement"
+            android:exported="false" />
+        <activity
+            android:name=".Participant.Registration.FindingDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Participant.Registration.SearchEvents"
+            android:exported="true" />
+        <activity
+            android:name=".Participant.PartivipantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Club.Event.EventDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Club.Profile.EventList"
+            android:exported="false" />
+        <activity
+            android:name=".Club.RoutePlanning.RoutePlanningCreation"
+            android:exported="false" />
+        <activity
+            android:name=".Club.Profile.registrationManagement"
+            android:exported="false" />
+        <activity
+            android:name=".Club.Profile.ProfileInfo"
+            android:exported="false" />
+        <activity
+            android:name=".Club.Profile.ProfileCreation"
+            android:exported="false" />
+        <activity
+            android:name=".Club.ClubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EventType.EventTypeModeration"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EventType.EventTypeList"
+            android:exported="false" />
+        <activity
+            android:name=".admin.EventType.EventTypeCreate"
+            android:exported="false" />
+        <activity
+            android:name=".Club.Event.EventCreation"
+            android:exported="false" />
+        <activity
+            android:name=".admin.deleteAccount"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AccountList"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".entity.SelectRole"
+            android:exported="false" />
+        <activity
+            android:name=".Club.ClubRegister"
+            android:exported="false" />
+        <activity
+            android:name=".entity.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Participant.UserRegister"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+    </application>
+
+</manifest>
